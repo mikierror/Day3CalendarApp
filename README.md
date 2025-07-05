@@ -1,12 +1,67 @@
-# React + Vite
+# 🗓️ Weekly Calendar App - Day 3 of 15 Days Machine Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is **Day 3** of my **15-day Machine Coding Challenge**, where I’m building real-world frontend projects daily to sharpen my development skills and prepare for job-ready coding interviews.
 
-Currently, two official plugins are available:
+## 🚀 Project: Weekly Calendar App (Google Calendar Clone)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and interactive calendar application where users can:
 
-## Expanding the ESLint configuration
+- View a 7x24 weekly grid
+- Click on any time slot to add an event
+- Input **Title**, **Start Time**, and **End Time**
+- See events visually placed based on time
+- Delete events directly from the calendar
+- Events persist via **Local Storage**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **LocalStorage** (for data persistence)
+
+---
+
+## 📦 Features
+
+| Feature               | Description                                      |
+|-----------------------|--------------------------------------------------|
+| 🧱 7x24 Grid           | Grid layout for each day of the week             |
+| ➕ Add Event           | Modal pops up to create a new event              |
+| 🗑️ Delete Event        | Click ❌ to remove any event                      |
+| 💾 Persistent Storage | Saves events in LocalStorage automatically      |
+
+---
+
+## 🔧 How to Run Locally
+
+```bash
+git clone https://github.com/mikierror/Day3CalendarApp.git
+cd weekly-calendar-app
+npm install
+npm run dev
+
+
+📚 Learning Outcome
+Practiced grid-based layouts using Tailwind
+
+Worked with event-based positioning logic
+
+Used modal-based input handling
+
+Managed data using React state and LocalStorage
+
+🙏 Special Thanks
+Thanks to Sheriyans Coding School and Harsh Vardhan Sir for consistently guiding me throughout my frontend journey!
+
+📅 Day 3 of 15 - Machine Coding Challenge
+Stay tuned — 12 more projects to go. Follow me on LinkedIn and X (Twitter) for daily updates!
+
+---
+
+Let me know if you want to add:
+- Conflict detection logic
+- Responsive design
+- Drag & Drop support
+
+I'll help update this README accordingly.
